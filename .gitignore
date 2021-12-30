@@ -22,7 +22,7 @@
 # Visual Studio cache directory
 .vs/
 .vscode
-/Assets/Game_Kit
+./Assets/Game_Kit
 
 # Gradle cache directory
 .gradle/
