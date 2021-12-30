@@ -21,6 +21,7 @@
 
 # Visual Studio cache directory
 .vs/
+.Assets/Game_Kit
 
 # Gradle cache directory
 .gradle/
