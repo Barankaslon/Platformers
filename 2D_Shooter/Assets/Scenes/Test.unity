@@ -227,6 +227,7 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 64
+  anim: {fileID: 578162367}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +322,7 @@ GameObject:
   - component: {fileID: 578162364}
   - component: {fileID: 578162365}
   - component: {fileID: 578162366}
+  - component: {fileID: 578162367}
   m_Layer: 0
   m_Name: Standing_Sprite
   m_TagString: Untagged
@@ -409,6 +411,25 @@ CapsuleCollider2D:
   m_Offset: {x: 0.008847833, y: -0.24854302}
   m_Size: {x: 0.96029377, y: 2.5093265}
   m_Direction: 0
+--- !u!95 &578162367
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578162363}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 62e552c136001664381d2bbe2ba16807, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1141729353
 GameObject:
   m_ObjectHideFlags: 0
